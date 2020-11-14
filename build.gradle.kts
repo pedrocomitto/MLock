@@ -27,8 +27,6 @@ dependencyManagement {
 
 dependencies {
 	api("org.springframework.boot:spring-boot-starter")
-	api("org.springframework.retry:spring-retry")
-	api("org.springframework:spring-aspects")
 
 	api("org.springframework.boot:spring-boot-starter-data-redis")
 	api("redis.clients:jedis:3.3.0")
