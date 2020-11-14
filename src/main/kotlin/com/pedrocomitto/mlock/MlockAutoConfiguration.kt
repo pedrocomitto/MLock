@@ -1,6 +1,6 @@
 package com.pedrocomitto.mlock
 
-import com.pedrocomitto.mlock.lock.MlockImpl
+import com.pedrocomitto.mlock.lock.Mlock
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty
 import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean
@@ -13,5 +13,5 @@ class MlockAutoConfiguration {
 
     @Bean
     fun mlock(mlockProperties: MlockProperties) =
-        MlockImpl(mlockProperties)
+        Mlock(mlockProperties)
 }
