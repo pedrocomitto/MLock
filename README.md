@@ -1,3 +1,3 @@
-# MLock
+# MLock (EXPERIMENTAL)
 
-experimental
+A simple Spring Boot library for distributed lock using Redis (Redlock)
